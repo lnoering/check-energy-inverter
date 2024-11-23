@@ -1,6 +1,6 @@
 <h3 align="center">Chocadeira/Brooder</h1>
 <p align="center">
-    <img alt="logo-chocadeira" class="avatar rounded-2" height="60" src="/icon.png" width="60">
+    <img alt="logo" class="avatar rounded-2" height="60" src="/icon.png" width="60">
 </p>
 <p align="center">
     <a href="https://travis-ci.org/lnoering/check-energy-inverter">
