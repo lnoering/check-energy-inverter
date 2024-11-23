@@ -8,6 +8,13 @@
     </a>
 </p>
 
+### Esquema do Projeto
+
+<p align="center">
+    <a href="https://wokwi.com/projects/414737034312879105">
+        <img src="/project-sketch.png" style="max-width: 100%; max-height: 300px; width: auto; height: auto;" alt="Sketch">
+    </a>
+</p>
 
 ### Plataforma/Platform
     - Arduino Uno
@@ -19,6 +26,7 @@
 - IDE <a href="https://code.visualstudio.com/">Visual Studio Code</a> // 1.71.2
 - IDE Extension <a href="https://platformio.org/">PlatformIO</a> // Core 6.1.5 Home 3.4.3
 - Libraries <a href="https://github.com/lnoering/check-energy-inverter/blob/master/platformio.ini">Libs</a>
+- WOKWI <a href="https://wokwi.com/projects/414737034312879105">See the project Running/Sketch</a>
 </code>
 </Pre>
 </div>
