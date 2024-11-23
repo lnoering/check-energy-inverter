@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "author": "Leonardo H. Noering",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "arduino", "top": 87, "left": -29.4, "attrs": {} },
+    {
+      "type": "wokwi-buzzer",
+      "id": "buzzer1",
+      "top": 190.17,
+      "left": 466.82,
+      "rotate": 90,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "pushbutton1",
+      "top": -6.6,
+      "left": 93,
+      "rotate": 90,
+      "attrs": { "label": "Test", "color": "green", "key": "2" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -3.6,
+      "left": 61.4,
+      "attrs": { "color": "green", "flip": "1" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 102.2,
+      "left": 288,
+      "attrs": { "label": "Interrupt", "color": "red", "key": "1", "bounce": "0" }
+    }
+  ],
+  "connections": [
+    [ "arduino:13", "led1:C", "green", [ "v-19.2", "h-18.8" ] ],
+    [ "led1:A", "arduino:GND.1", "black", [ "v0" ] ],
+    [ "pushbutton1:1.r", "arduino:12", "green", [ "v19.4", "h-38.4" ] ],
+    [ "pushbutton1:2.l", "arduino:AREF", "black", [ "v-19.2", "h-77", "v105.6", "h28.8" ] ],
+    [ "btn1:1.l", "arduino:2", "green", [ "h-38.4", "v-48", "h-42.5" ] ],
+    [ "btn1:2.r", "arduino:GND.2", "black", [ "h9.8", "v173", "h-224.7" ] ]
+  ],
+  "serialMonitor": { "display": "always", "newline": "lf" },
+  "dependencies": {}
+}
