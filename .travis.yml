@@ -24,7 +24,7 @@ install:
     - pio update
 
 script:
-    # - platformio ci --lib="." $PLATFORMIO_CI_EXTRA_ARGS
-    - platformio run -e production ci --lib="." $PLATFORMIO_CI_EXTRA_ARGS
-    - platformio debug -e debug ci --lib="." $PLATFORMIO_CI_EXTRA_ARGS
-    - platformio test -e test ci --lib="." $PLATFORMIO_CI_EXTRA_ARGS
+    - platformio ci --lib="." $PLATFORMIO_CI_EXTRA_ARGS
+    - platformio run -e production
+    - platformio debug -e debug
+    - platformio test -e test

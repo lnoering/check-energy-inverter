@@ -1,4 +1,4 @@
-<h3 align="center">Chocadeira/Brooder</h1>
+<h3 align="center">Verificando se a energia vem do Inversor de Frequência/Checking if power comes from the Frequency Inverter</h1>
 <p align="center">
     <img alt="logo" class="avatar rounded-2" height="60" src="/icon.png" width="60">
 </p>
