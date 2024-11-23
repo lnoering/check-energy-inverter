@@ -19,6 +19,11 @@ env:
     # - PLATFORMIO_CI_SRC=test PLATFORMIO_CI_EXTRA_ARGS="--project-conf=platformio.ini"
 
 before_install:
+  - sudo apt-get update
+  - sudo apt-get install -y udev
+  - curl -fsSL https://raw.githubusercontent.com/platformio/platformio-core/master/scripts/99-platformio-udev.rules | sudo tee /etc/udev/rules.d/99-platformio-udev.rules
+  - sudo udevadm control --reload-rules
+  - sudo udevadm trigger
   - sudo usermod -a -G dialout travis
 
 install:
