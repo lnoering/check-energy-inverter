@@ -35,4 +35,4 @@ script:
     - platformio ci --lib="." $PLATFORMIO_CI_EXTRA_ARGS
     - platformio run -e production
     - platformio debug -e debug
-    - platformio test -e test
+    - platformio test -e test -vvv
